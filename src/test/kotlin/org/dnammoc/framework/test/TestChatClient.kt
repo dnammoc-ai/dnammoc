@@ -7,7 +7,7 @@ suspend fun main() {
     val client = createChatClient {
         model {
             baseUrl = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
-            apiKey = "sk-c9816722b40d42eb830ae0450bfc0535"
+            apiKey = ""
             modelName = "qwen-plus"
         }
         memory {
